@@ -1,6 +1,5 @@
 import PAGES from "./models/pageModel.js";
 import { handlePageChange } from "./routes/router.js";
-import "./pages/RegisterPage.js";
 
 // console.log("🚀 ~ file: app.js:3 ~ handlePageChange", handlePageChange);
 
@@ -29,5 +28,5 @@ navFAQLink.addEventListener("click", function () {
 });
 
 navContactUsLink.addEventListener("click", function () {
-  handlePageChange(PAGES.FAQ);
+  handlePageChange(PAGES.CONTACT);
 });
