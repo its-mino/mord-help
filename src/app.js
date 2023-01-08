@@ -8,9 +8,9 @@ import "./pages/RegisterPage.js";
 
 const navHomeLink = document.getElementById("nav-home-link");
 const navAboutUsLink = document.getElementById("nav-aboutus-link");
+const navMediaLink = document.getElementById("nav-media-link");
+const navFAQLink = document.getElementById("nav-faq-link");
 const navContactUsLink = document.getElementById("nav-contactus-link");
-const navRegisterLink = document.getElementById("nav-register-link");
-const navLoginUsLink = document.getElementById("nav-login-link");
 
 navHomeLink.addEventListener("click", function () {
   handlePageChange(PAGES.HOME);
@@ -20,14 +20,14 @@ navAboutUsLink.addEventListener("click", function () {
   handlePageChange(PAGES.ABOUT);
 });
 
+navMediaLink.addEventListener("click", function () {
+  handlePageChange(PAGES.MEDIA);
+});
+
+navFAQLink.addEventListener("click", function () {
+  handlePageChange(PAGES.FAQ);
+});
+
 navContactUsLink.addEventListener("click", function () {
-  handlePageChange(PAGES.CONTACT);
-});
-
-navRegisterLink.addEventListener("click", function () {
-  handlePageChange(PAGES.REGISTER);
-});
-
-navLoginUsLink.addEventListener("click", function () {
-  handlePageChange(PAGES.LOGIN);
+  handlePageChange(PAGES.FAQ);
 });
