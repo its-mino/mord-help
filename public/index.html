@@ -16,53 +16,84 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="main.css" />
+    <!-- <link rel="stylesheet" href="main.css" /> -->
   </head>
+
   <body>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#" id="nav-aboutus-link">About Us</a>
-              <a class="nav-link" href="#" id="nav-media-link">Media</a>
-              <a class="nav-link" href="#" id="nav-faq-link">FAQ</a>
-              <a class="nav-link" href="#" id="nav-contactus-link">Contact Us</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#" id="nav-aboutus-link">About Us</a>
+            <a class="nav-link" href="#" id="nav-media-link">Media</a>
+            <a class="nav-link" href="#" id="nav-faq-link">FAQ</a>
+            <a class="nav-link" href="#" id="nav-contactus-link">Contact Us</a>
+          </div>
+        </div>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="/src/assets/logov2.webp"
+            alt="Bootstrap"
+            width="281"
+            height="91"
+        /></a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- home page -->
+      <div id="home-page" class="d-none">
+        <h1>Home Page</h1>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
             </div>
           </div>
-          <a class="navbar-brand" href="#"></a><img src="/src/assets/logov2.webp" alt="Bootstrap" width="281"></a>
         </div>
-      </nav>
-
-      <main>
-        <!-- home page -->
-        <div id="home-page" class="d-none">
-          <h1>Home Page</h1>
-        </div>
-        <!-- about us -->
-        <div id="about-us" class="d-none">
-          <h1>About Us</h1>
-        </div>
-        <!-- media -->
-        <div id="media" class="d-none">
-          <h1>Media</h1>
-        </div>
-        <!-- faq -->
-        <div id="faq" class="d-none">
-          <h1>FAQ</h1>
-        </div>
-        <!-- contact us -->
-        <div id="contact-us" class="d-none">
-          <h1>Contact Us</h1>
-        </div>
-      </main>
-      <footer class="border-top pt-3 d-flex justify-content-center">
-        2023©️
-      </footer>
-    </div>
+      </div>
+      <!-- about us -->
+      <div id="about-us" class="d-none">
+        <h1>About Us</h1>
+      </div>
+      <!-- media -->
+      <div id="media" class="d-none">
+        <h1>Media</h1>
+      </div>
+      <!-- faq -->
+      <div id="faq" class="d-none">
+        <h1>FAQ</h1>
+      </div>
+      <!-- contact us -->
+      <div id="contact-us" class="d-none">
+        <h1>Contact Us</h1>
+      </div>
+    </main>
+    <footer class="border-top pt-3 d-flex justify-content-center">
+      2023©️
+    </footer>
     <script src="../src/app.js" type="module"></script>
   </body>
 </html>
