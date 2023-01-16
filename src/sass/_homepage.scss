@@ -1,0 +1,30 @@
+main {
+  // Other
+  height: 100vh;
+  width: 100vw;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  object-fit: fit;
+}
+
+#hero-section {
+  // Background
+  background-image: url(/src/assets/background.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  // Other
+  height: 100vh;
+  width: 100vw;
+}
+
+// div.carouselExampleSlidesOnly {
+//   width: auto;
+//   height: auto;
+// }
+
+// #home-page {
+//   width: 100vw;
+//   height: 100vh;
+//   object-fit: fit;
+// }

@@ -20,46 +20,48 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#" id="nav-home-link">Home</a>
-            <a class="nav-link" href="#" id="nav-aboutus-link">About Us</a>
-            <a class="nav-link" href="#" id="nav-media-link">Media</a>
-            <a class="nav-link" href="#" id="nav-faq-link">FAQ</a>
-            <a class="nav-link" href="#" id="nav-contactus-link">Contact Us</a>
+    <!-- ---------------- HEADER -------------------------------- -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#" id="nav-home-link">Home</a>
+              <a class="nav-link" href="#" id="nav-aboutus-link">About Us</a>
+              <a class="nav-link" href="#" id="nav-media-link">Media</a>
+              <a class="nav-link" href="#" id="nav-faq-link">FAQ</a>
+              <a class="nav-link" href="#" id="nav-contactus-link"
+                >Contact Us</a
+              >
+            </div>
           </div>
+          <a class="navbar-brand" href="#" id="logo"
+            ><img
+              src="/src/assets/logov2.webp"
+              alt="Bootstrap"
+              width="281"
+              height="91"
+          /></a>
         </div>
-        <a class="navbar-brand" href="#"
-          ><img
-            src="/src/assets/logov2.webp"
-            alt="Bootstrap"
-            width="281"
-            height="91"
-        /></a>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <main>
       <!-- home page -->
-      <div id="home-page" class="d-none">
-        <h1>Home Page</h1>
-        <section id="hero">
-          <img src="/src/assets/background.webp" alt="" />
-        </section>
-
+      <div id="home-page" class="d-block">
+        <!-- ---------------- HERO SECTION ---------------- -->
+        <div id="hero-section"></div>
         <div
           id="carouselExampleSlidesOnly"
           class="carousel slide"
