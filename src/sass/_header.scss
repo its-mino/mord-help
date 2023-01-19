@@ -1,9 +1,18 @@
 header {
   background-image: url(https://www.mardigrasneworleans.com/templates/client/imagesNew/star1.png.pagespeed.ce.Qvt-7yS2v1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  // Other
   width: 100vw;
   display: inline-grid;
   grid-template-columns: auto auto auto;
-  background-color: none !important;
+  box-shadow: 1px 1px 10px #5f583c;
+}
+
+.bg-body-tertiary {
+  background-color: transparent !important;
 }
 
 // #header {
