@@ -1,0 +1,12 @@
+.faq {
+  margin: auto;
+  width: 50vw;
+}
+
+.accordion-body > a {
+  position: relative;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.33);
+}

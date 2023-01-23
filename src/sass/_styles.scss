@@ -1024,7 +1024,7 @@ nav > ul > li ul li:hover a:after {
   border-radius: 0.15em;
   line-height: normal;
   height: 2.5em;
-  -webkit-appearance: none;
+  // -webkit-appearance: none;
 }
 .Popup.taxiPopup .note {
   text-align: center;
@@ -3184,7 +3184,7 @@ ul.parades li a {
   box-shadow: none !important;
 }
 .location {
-  display: inline-block;
+  // display: inline-block;
   float: right;
   text-align: right;
   line-height: 15px;
@@ -3200,8 +3200,8 @@ ul.parades li a {
   overflow: hidden;
   transition: background 0.2s linear;
 }
-.route:hover {
-}
+// .route:hover {
+// }
 .route:after {
   display: none !important;
 }
@@ -3550,10 +3550,10 @@ ul.parades li:hover .route i {
 .gallery #gallery-categories li:hover a span {
   padding: 11px 23px 14px 5px;
 }
-#gallery-categories li:hover a span {
-}
-#gallery-categories li:nth-child(3n + 2):hover a span {
-}
+// #gallery-categories li:hover a span {
+// }
+// #gallery-categories li:nth-child(3n + 2):hover a span {
+// }
 #gallery-categories li:hover a:before {
   box-shadow: inset 2px 2px 19px 1px rgba(0, 0, 0, 0.64);
 }
@@ -3635,8 +3635,8 @@ ul.parades li:hover .route i {
 .videos li:nth-child(3n + 2) a span {
   color: #272727;
 }
-.videos li:nth-child(3n + 0) a span {
-}
+// .videos li:nth-child(3n + 0) a span {
+// }
 .videos li:after {
   display: block;
   z-index: 2;
@@ -3781,8 +3781,8 @@ article .youVoted h3 {
 article .youVoted p {
   margin: 0;
 }
-article .images {
-}
+// article .images {
+// }
 article .images div {
   position: relative;
   margin-bottom: 20px;
@@ -3826,7 +3826,7 @@ article .images div .numbered .number {
 article .images div .votes {
   background: purple;
   padding: 10px 10px;
-  radius: 2px;
+  // radius: 2px;
   font-family: "Oswald", arial, serif;
 }
 article .images div .title-wrapper {
@@ -4278,8 +4278,8 @@ footer a.external img {
   footer .center {
     max-width: 576px;
   }
-  footer a.external {
-  }
+  // footer a.external {
+  // }
 }
 .cc {
   position: relative;
@@ -4299,7 +4299,7 @@ ul.rslides {
   margin: 0;
 }
 ul.rslides li {
-  -webkit-backface-visibility: hidden;
+  // -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
   width: 100%;

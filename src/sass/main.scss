@@ -1,12 +1,12 @@
-@import "setup";
+// Other
 @import "setup";
 @import "footer";
 @import "header";
-@import "content";
-@import "homepage";
-@import "about_us";
+@import "animations";
+@import "styles";
+
+// Web Pages
+@import "about";
 @import "media";
 @import "faq";
-@import "contact_us";
-@import "styles";
-@import "animate";
+@import "contact";
