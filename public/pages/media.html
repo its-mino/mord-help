@@ -17,6 +17,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <!-- <script src="https://cdn.jsdelivr.net/jquery/1.8.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.responsiveslides/1.54/responsiveslides.min.js"></script> -->
@@ -30,6 +31,10 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
     />
   </head>
 
@@ -94,6 +99,138 @@
       </a>
       <div class="diagonal"></div>
     </div>
-    <h1>Media page</h1>
+    <!-- --------------------- IMAGE GALLERY SECTION --------------------- -->
+    <h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
+      Check out these amazing images from previous Mardi Grass Carnivals!!!
+    </h1>
+    <section class="container">
+      <div
+        class="gallery flex flex-wrap gap-2 justify-center max-w-5xl mx-auto px-6"
+      >
+        <a data-fancybox="gallery" href="https://lipsum.app/id/46/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/46/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/47/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/47/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/51/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/51/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/46/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/46/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/47/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/47/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/51/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/51/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/46/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/46/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/47/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/47/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/51/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/51/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/46/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/46/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/47/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/47/200x150" />
+        </a>
+        <a data-fancybox="gallery" href="https://lipsum.app/id/51/1600x1200">
+          <img class="rounded" src="https://lipsum.app/id/51/200x150" />
+        </a>
+      </div>
+      <hr />
+    </section>
   </body>
+  <!-- --------------------- Footer --------------------- -->
+  <div class="diagonalStart">
+    <div id="social">
+      <a
+        class="facebook"
+        href="https://www.facebook.com/MardiGrasNewOrleans"
+        target="_blank"
+        ><i class="fa-brands fa-facebook"> Visit us on Facebook</i></a
+      >
+      <a
+        class="twitter"
+        href="https://twitter.com/MardiGrasNOLA"
+        target="_blank"
+        ><i class="fa-brands fa-twitter"></i> Visit us on Twitter</a
+      >
+      <a
+        class="instagram"
+        href="https://www.instagram.com/mardigrasneworleans/"
+        target="_blank"
+        ><i class="fa-brands fa-instagram"></i> Visit us on Instagram</a
+      >
+      <a
+        class="youtube"
+        href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+        target="_blank"
+        ><i class="fa-brands fa-youtube"></i> Visit us on YouTube</a
+      >
+    </div>
+    <div id="scrollup">
+      <i onclick="topFunction()" class="fas fa-angle-up"></i>
+    </div>
+  </div>
+  <footer>
+    <div
+      class="center wow fadeInUp"
+      style="
+        animation-delay: 0.1s;
+        visibility: visible;
+        animation-name: fadeInUp;
+      "
+    >
+      <p>Copyright © 1996-2023 MardiGrasNewOrleans.com</p>
+      <a
+        class="external"
+        target="_blank"
+        href="http://www.bestneworleanshotels.com"
+        ><img
+          src="/public/assets/images/xlogo-best-new-orleans-hotels.png.pagespeed.ic.63IUrLDNZN.webp"
+          width="145"
+          height="72"
+          alt="BestNewOrleansHotels.com"
+      /></a>
+      <a
+        class="external"
+        target="_blank"
+        href="http://www.experienceneworleans.com"
+        ><img
+          src="/public/assets/images/xlogo-experience-new-orleans.png.pagespeed.ic.32iu3-JAa2.webp"
+          width="145"
+          height="72"
+          alt="ExperienceNewOrleans.com"
+      /></a>
+      <a
+        class="external"
+        target="_blank"
+        href="http://www.neworleansrestaurants.com"
+        ><img
+          src="/public/assets/images/xlogo-new-oreans-restaurants.png.pagespeed.ic.VJID0wPKoc.webp"
+          width="145"
+          height="72"
+          alt="NewOrleansRestaurants.com"
+      /></a>
+      <a
+        class="external"
+        target="_blank"
+        href="http://www.neworleanscoupons.com"
+        ><img
+          src="/public/assets/images/xlogo-new-orleans-coupons.png.pagespeed.ic.2Mi0bUD2Oi.webp"
+          width="145"
+          height="72"
+          alt="logo-new-orleans-coupons.com"
+      /></a>
+    </div>
+  </footer>
+  <div class="diagonalEnd"></div>
+  <script src="/src/javascript/scrollToTop.js"></script>
 </html>

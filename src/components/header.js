@@ -7,7 +7,7 @@ const initialPropertiesGallery = (propertiesArrFromHomePage) => {
   createGallery();
 };
 
-const createHeader = (name, description, price, img) => {
+const createHeader = () => {
   return `
   <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header">
         <div class="container-fluid">

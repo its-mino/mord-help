@@ -743,7 +743,7 @@ nav > ul > li ul li:hover a:after {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.17);
+  // background: rgba(0, 0, 0, 0.17);
 }
 .paradeInt .rslides li:after {
   display: none;
@@ -1293,7 +1293,6 @@ nav > ul > li ul li:hover a:after {
   padding: 6em 15% 12em 0;
   width: 100%;
   z-index: 3;
-  width: 100%;
   height: 100px;
   color: #fff;
   overflow: hidden;
@@ -1583,9 +1582,12 @@ article .inner .adsbygoogle:before,
 .content {
   position: relative;
   z-index: 3;
-  padding-top: 62px;
-  padding: 4em 0 2.2em;
+  padding: 3em 0 2.2em;
   margin-top: -134.1px;
+  margin: auto;
+  width: 50vw;
+  //   padding-bottom: 2em;
+  text-align: justify;
 }
 .content article {
   display: flex;

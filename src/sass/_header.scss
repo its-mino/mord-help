@@ -11,6 +11,7 @@ header {
   // box-shadow: 1px 1px 10px #5f583c;
   background-color: transparent !important;
   position: absolute;
+  background: rgba(0, 0, 0, 0.17);
 }
 
 .bg-body-tertiary {
@@ -20,3 +21,12 @@ header {
 // #header {
 //   background-color: none !important;
 // }
+
+.heading {
+  background-image: url(/public/assets/images/aboutHeader.webp);
+  height: 470px;
+}
+
+#test {
+  height: 350px;
+}
