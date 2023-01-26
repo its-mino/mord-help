@@ -1,14 +1,16 @@
 header {
-  background-image: url(/public/assets/images/navbarBackground.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  // background-image: url(/public/assets/images/navbarBackground.png);
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
   // background-position: center; /* Center the image */
-  background-size: 100vw;
+  // background-size: 100vw;
   // Other
   width: 100vw;
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  box-shadow: 1px 1px 10px #5f583c;
+  // display: inline-grid;
+  // grid-template-columns: auto auto auto;
+  // box-shadow: 1px 1px 10px #5f583c;
+  background-color: transparent !important;
+  position: absolute;
 }
 
 .bg-body-tertiary {

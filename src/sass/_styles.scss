@@ -129,10 +129,11 @@ hr {
   clear: both;
   position: relative;
   display: block;
-  height: 2px;
+  height: 0.15em;
   margin: 1.8em auto;
   background: #e5c431;
   border: none;
+  opacity: 100% !important;
 }
 hr:before {
   position: absolute;
@@ -215,8 +216,8 @@ a.button:after {
   right: 15px;
   margin-top: -11px;
   top: 50%;
-  content: "\f105";
-  font-family: "Font Awesome 5 Pro";
+  content: "\f054";
+  font: "Font Awesome 6 Free";
   opacity: 0;
   transition: 0.3s;
 }
@@ -653,7 +654,7 @@ nav > ul > li ul li:hover a:after {
     left: inherit;
     z-index: 1;
     top: 12px;
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 6 Free";
     padding-left: 12px;
     width: 20px;
     height: 20px;
@@ -808,7 +809,7 @@ nav > ul > li ul li:hover a:after {
 }
 .book:after {
   content: "\f065";
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Free";
   position: absolute;
   right: 0.4em;
   top: 50%;
@@ -1666,28 +1667,7 @@ article .inner .adsbygoogle:before,
   width: inherit;
   max-width: 170px !important;
 }
-.diagonalStart {
-  position: absolute;
-  z-index: -1;
-  left: -5%;
-  top: -48px;
-  width: 110%;
-  height: 140px;
-  background: #fdf8e5;
-  box-shadow: 1px -11px 13px -10px rgba(0, 0, 0, 0.5);
-  transform: rotate(-2.2deg);
-}
-.diagonalEnd {
-  position: absolute;
-  z-index: -1;
-  left: -5%;
-  bottom: -48px;
-  width: 110%;
-  height: 140px;
-  background: #fdf8e5;
-  box-shadow: 1px 11px 13px -10px rgba(0, 0, 0, 0.5);
-  transform: rotate(2.2deg);
-}
+
 .flag {
   clear: both;
   position: relative;
@@ -1714,81 +1694,11 @@ article .inner .adsbygoogle:before,
   height: 100%;
   background: #239e33;
 }
-.sidebar {
-  width: 290px;
-  flex-shrink: 0;
-  text-align: center;
-  font-size: 0.9em;
-  transition: 0.3s;
-  margin-top: -150px;
-}
-.sidebar:before {
-  display: none;
-  position: absolute;
-  content: "";
-  z-index: -1;
-  left: -5%;
-  top: -48px;
-  width: 110%;
-  height: 140px;
-  background: #fff;
-  box-shadow: 1px -11px 13px -10px rgba(0, 0, 0, 0.22);
-  transform: rotate(2.2deg);
-}
-.sidebar:after {
-  display: none;
-  position: absolute;
-  content: "";
-  z-index: -1;
-  left: -5%;
-  bottom: -48px;
-  width: 110%;
-  height: 140px;
-  background: #fff;
-  box-shadow: 1px 11px 13px -10px rgba(0, 0, 0, 0.25);
-  transform: rotate(-2.2deg);
-}
+
 .home .content article {
   align-items: center;
 }
-.home .content article .sidebar {
-  margin: -50% auto !important;
-}
-.sidebar .center {
-  border: none;
-  background: #fff;
-  padding: 2em 2.2em;
-  box-shadow: 3px 10px 26px -5px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  margin-bottom: 1.2em;
-}
-html:not(.home) .sidebar .center.c1 {
-  padding: 2em 1.6em 1.7em 1.6em;
-}
-.sidebar .mayor {
-  width: 70px;
-  height: auto;
-  border-radius: 3px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.28);
-}
-.sidebar p {
-  margin: 10px 3% 2em 3%;
-  text-align: left;
-}
-.sidebar .weather {
-  display: block;
-  position: relative;
-  margin: 2em 0 0;
-}
-// .sidebar .weather:before {
-// }
-.sidebar .weather_link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+
 .google_side_ads {
   max-width: 250px;
   max-height: 250px;
@@ -1827,7 +1737,7 @@ html:not(.home) .sidebar .center.c1 {
   top: 50%;
   margin-top: -10px;
   color: #ea0c0c;
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Free";
 }
 .join {
   color: #fff;
@@ -1888,10 +1798,6 @@ html:not(.home) .sidebar .center.c1 {
     padding: 20px 5% 20px 3%;
     max-width: 1200px;
   }
-  .home .content article .sidebar {
-    right: 4%;
-    width: 260px;
-  }
 }
 @media (max-width: 950px) {
   .content article {
@@ -1911,9 +1817,6 @@ html:not(.home) .sidebar .center.c1 {
     float: none !important;
     margin: 2em auto !important;
   }
-  .sidebar {
-    width: 250px;
-  }
 }
 @media (max-width: 900px) {
   html:not(.home) .content article {
@@ -1928,47 +1831,6 @@ html:not(.home) .sidebar .center.c1 {
   }
   html:not(.home) .content article figure img {
     border-radius: 6px;
-  }
-  html:not(.home) .sidebar {
-    position: relative;
-    margin-top: 0;
-    width: 100%;
-    max-width: 100%;
-    background: #fff;
-    margin: 8em auto 7em auto !important;
-    padding: 0.9em 1.2em;
-    box-shadow: none;
-  }
-  html:not(.home) .sidebar:before,
-  html:not(.home) .sidebar:after {
-    display: block;
-  }
-  html:not(.home) .sidebar .center {
-    max-width: 300px;
-    margin: 0 auto;
-    background: transparent;
-    box-shadow: none;
-  }
-  html:not(.home) .sidebar .center.c1 {
-    max-width: 700px;
-  }
-  html:not(.home) .sidebar .centerADS {
-    max-width: 700px;
-  }
-  html:not(.home) .sidebar .centerADS .google_side_ads {
-    max-width: 700px;
-  }
-  .sidebar .weather {
-    margin: 4em 0 0;
-  }
-  html:not(.home) .ad2 {
-    padding: 0 4%;
-  }
-  html:not(.home) .sidebar .google_side_ads {
-    display: none;
-  }
-  html:not(.home) .sidebar hr {
-    display: none;
   }
 }
 @media (max-width: 630px) {
@@ -1985,34 +1847,7 @@ html:not(.home) .sidebar .center.c1 {
   .home .content article .inner {
     padding: 0 6%;
   }
-  .home .content article .sidebar {
-    position: relative;
-    z-index: 0;
-    right: inherit !important;
-    top: 0% !important;
-    width: 100% !important;
-    max-width: 100%;
-    background: #fff;
-    margin: 9em auto 0 auto !important;
-    padding: 0.9em 1.2em;
-    box-shadow: none;
-  }
-  .home .sidebar:before,
-  .home .sidebar:after {
-    display: block;
-  }
-  .home .sidebar:after {
-    transform: rotate(2.2deg);
-    box-shadow: 1px 11px 13px -10px rgba(0, 0, 0, 0.5);
-    transform: rotate(2.2deg);
-  }
-  .home .sidebar .center {
-    max-width: 300px;
-    margin: 0 auto;
-    background: transparent;
-    box-shadow: none;
-    padding-bottom: 0;
-  }
+
   .home .ad2 {
     padding: 0 4%;
   }
@@ -3365,9 +3200,7 @@ ul.parades li:hover .route i {
 .sideRoutes:nth-child(2) {
   border-top: none;
 }
-.paradeInt .sidebar h3 {
-  margin: 0 0 20px;
-}
+
 .sideRoutes li {
   position: relative;
   line-height: 20px;
@@ -3413,7 +3246,7 @@ ul.parades li:hover .route i {
   font-size: 22px;
   font-weight: bold;
   color: #f0f0f0;
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Free";
 }
 .back__to_schedule {
   display: inline-block;
@@ -3540,7 +3373,7 @@ ul.parades li:hover .route i {
   right: 6px;
   top: 50%;
   margin-top: -10px;
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Free";
   opacity: 0;
   transition: 0.3s;
 }
@@ -3642,7 +3475,7 @@ ul.parades li:hover .route i {
   z-index: 2;
   position: absolute;
   content: "\f167";
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Font Awesome 6 Brands";
   top: 62%;
   right: 0%;
   width: 100%;
@@ -3879,7 +3712,7 @@ article .images div .voteButton:before {
   left: -5px;
   top: 50%;
   margin-top: -7px;
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Free";
   color: #fff;
   opacity: 0;
   transition: 0.3s;
@@ -4240,40 +4073,7 @@ form fieldset div.formfields button:hover {
     display: none;
   }
 }
-footer {
-  background: url(https://www.mardigrasneworleans.com/templates/client/imagesNew/xfooter.jpg.pagespeed.ic.QEkTHJ1XSi.jpg)
-    center no-repeat;
-  background-size: cover;
-  text-align: center;
-}
-footer .center {
-  max-width: 1336px;
-  padding: 7.8em 3% 6.5em;
-  margin: 0 auto;
-}
-footer p {
-  font-size: 1.1em;
-  line-height: 1.2em;
-  color: #fff;
-}
-footer a.external {
-  display: inline-block;
-  width: 232px;
-  background: #fdf8e5;
-  color: #484847;
-  text-shadow: none;
-  text-decoration: none !important;
-  padding: 0 0.7em;
-  border-radius: 3px;
-  margin: 0.6em 7px 0;
-  line-height: 0.8em;
-  transition: 0.3s;
-}
-footer a.external img {
-  width: 100%;
-  max-width: 155px;
-  height: auto;
-}
+
 @media (max-width: 1100px) {
   footer .center {
     max-width: 576px;
